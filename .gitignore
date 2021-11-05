@@ -4,4 +4,5 @@
 *.sh
 *.log
 *.bak
-/target/
+/common/target/
+/manage/target/
