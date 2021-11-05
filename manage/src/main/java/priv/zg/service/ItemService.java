@@ -1,5 +1,7 @@
 package priv.zg.service;
 
+import priv.zg.vo.EasyUiTable;
+
 /**
  * 商品服务
  *
@@ -8,4 +10,12 @@ package priv.zg.service;
  */
 public interface ItemService {
 
+    /**
+     * 商品分页查询
+     *
+     * @param page 页面
+     * @param rows 行
+     * @return {@link EasyUiTable}
+     */
+    EasyUiTable findItemByPage(Integer page, Integer rows);
 }

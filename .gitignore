@@ -1,0 +1,7 @@
+/.idea/
+*.class
+*.iml
+*.sh
+*.log
+*.bak
+/target/
