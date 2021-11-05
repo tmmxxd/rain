@@ -5,3 +5,4 @@
 *.log
 *.bak
 /target/
+/.idea/inspectionProfiles/Project_Default.xml

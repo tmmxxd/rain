@@ -34,7 +34,8 @@ public class ItemServiceImpl implements ItemService {
         queryWrapper.orderByDesc("updated");
         IPage<Item> iPage = itemMapper.selectPage(mpPage, queryWrapper);
         long total = iPage.getTotal();
-        List<Item> itemList = iPage.getRecords(); //分页结果
+        //分页结果
+        List<Item> itemList = iPage.getRecords();
         return new EasyUiTable(total, itemList);
     }
 }
